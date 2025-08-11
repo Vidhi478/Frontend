@@ -1,0 +1,145 @@
+*{
+margin:0;
+padding :0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding:40px 35px 30px 35px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#left{
+    margin-left: 30px;
+    padding: 20px;
+    width: 40%;
+    height: 95%;
+    /* background-color: red; */
+}
+#right{
+    margin-right: 30px;
+    width: 35%;
+    height: 95%;
+    /* background-color: blue; */
+}
+#left h1{
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:1.1;
+    font-weight:600;
+    color: rgb(79, 1, 1);
+}
+#bottomleft {
+    margin-top: 100px;
+    width: 90%;
+    height: 50%;
+    /* background-color: rgb(243, 241, 241) ; */
+
+}
+#colors{
+    margin-top: 20PX;
+    padding: 5px 15px;
+    width: fit-content;
+    /* background-color: rgb(183, 117, 117); */
+    display: flex;
+    border: 1.4px solid black;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50px;
+}
+#colors h4{
+    font-weight: 500;
+    margin-right: 4px;
+}
+#color1{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(121, 41, 146);
+    border-radius: 50%;
+    margin-right: 4px;
+}
+#color2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(2, 114, 92);
+}
+#bottomleft h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: rgb(20, 12, 2);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+#bottomleft h2 i{
+    margin:10px;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    
+}
+#bottomleft p{
+    line-height: 1.3;
+    font-size: 16PX;
+    font-weight: 200;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#righttop{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+
+}
+#righttop h4{
+    margin-right: 60%;
+    font-size: 18px;
+    font-weight: 450;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#right img{
+    width: 100%;
+   height: 480px;
+   object-fit: cover;
+   object-position: 0 35%;
+}
+#righttop i{
+    color: goldenrod;
+}
+#blackgola{
+    display: flex;
+    background-color: rgb(30, 32, 49);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    right:7.5%;
+    top: 20%;
+    align-items: center;
+    justify-content: center;
+}
+#blackgola h5{
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+#rotate{
+    position: relative;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      bottom: 7%;
+      left: -10%;
+   rotate: -90deg;
+   color: rgb(17, 10, 50);
+   transform-origin: 0 0;
+}
+
