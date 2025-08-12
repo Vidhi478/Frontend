@@ -813,7 +813,7 @@ justify-content: space-evenly;
  #lasttwo{
     width: 40%;
     height: 100%;
-    background-color: deepskyblue;
+    /*background-color: deepskyblue;*/
  }
 #agency{
     height: 25%;
@@ -837,4 +837,5 @@ justify-content: space-evenly;
  #whitelast{
     width: 100%;
     height: 20%;
+
  }
