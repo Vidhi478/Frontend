@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.navfirst h1{
+    color: red;
+    font-size: large;
+    font-weight: 900;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navtwo {
+   margin-right: 30vh;
+}
+.navfirst {
+   margin-left: 12%;
+   width: 15%;
+   background-color: red;
+}
+.navfirst img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    text-align: center;
+    margin-top: 17vh;
+}
+.content h1{
+    font-size: 9.5vh;
+    font-weight: 800;
+    line-height: 1.2;
+}
+.content h3{
+    font-weight: 500;
+    font-size: 4vh;
+    margin-top: 3vh;
+}
+.content h5{
+    margin-top: 4vh;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+}
+.email input{
+    color: white;
+ background-color: transparent;
+ font-size: 3vh;
+ border: 0.01px solid rgba(255, 255, 255, 0.705);
+ padding: 2.5vh;
+ padding-right: 30vh;
+}
+.email button{
+    margin-left: 1.5vh;
+ background-color: rgb(230, 0, 0);
+ padding:1.6vh 5vh 1.6vh 3vh;
+ font-size: 4vh;
+ font-weight: 500;
+}
+.second{
+    padding-top :1.5vh ;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}
+
+.second h1{
+    color: white;
+    margin: 5vh;
+    font-size: 4.3vh;
+    font-weight: 700;
+    margin-left: 11%;
+}
+.trendingnow{
+    position: relative;
+    display: flex;
+    width:80%;
+    height: 75%;
+    /* background-color: white; */
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin-bottom: 2vh;
+}
+.many{
+    flex-shrink: 0;
+    position: relative;
+    height: 90% ;
+    width: 20%;
+    /* background-color: red; */
+    border-radius: 10px;
+    margin-left: 5vh;
+    /* overflow: hidden; */
+    transition: all ease 0.3s;
+}
+.many img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.number h1{
+    font-size: 18vh;
+   position: absolute;
+   width: 40%;
+   height: 40%;
+   font-weight: 900;
+   color: black;
+   -webkit-text-stroke: 1px white;
+   top: 30%;
+   left: -20%;
+}
+.trendingnow::-webkit-scrollbar{
+    display: none;
+}
+.scrollicon{
+    width: 10%;
+}
+.third{
+    width:100%;
+    height: 80%;
+    background-color:#000;
+}
+.third h1{
+    color: white;
+    font-size: 4.3vh;
+    font-weight: 700;
+    margin-left: 11%;
+}
+.colorful{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 3vh;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    overflow: hidden;
+    width: 23.5%;
+    height: 99%;
+    border-radius: 10px;
+    background:linear-gradient( 135deg,#23233b,#1a1035,#2b0e21);
+}
+.box h2{
+     color: rgb(255, 255, 255);
+    font-size: 4vh;
+    font-weight: 700;
+    margin-top: 3vh;
+    margin-left: 2vh;
+}
+.box p{
+    color: rgba(240, 255, 255, 0.701);
+    font-size:3vh;
+ 
+   margin-top: 4.5vh;
+    margin: 2vh;
+    line-height: 1.1;
+}
+.bottomimg{
+    height: 55%;
+    width: 30%;
+    text-align:end;
+    margin-right: 2vh;
+    margin-left: 22vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 6vh;
+}
+.bottomimg img{
+     width: 100%;
+     height: 100%;
+     opacity: 50%;
+}
+.div{
+    width: 100%;
+    height: 50%;
+ /* background-color: red;    */
+}
+.forth{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.forth h1{
+     color: white;
+    font-size: 4.3vh;
+    font-weight: 700;
+    margin-left: 11%;
+}
+.ques{
+    width: 80%;
+    height: 90%;
+    margin-top: 3vh;
+    margin-left: 10%;
+
+}
+.ans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(43, 42, 42);
+    margin-top: 1.8vh;
+     transition:all ease 0.3s;
+}
+.ans h2{
+  color: white;
+  font-size: 4vh;
+  margin-left: 4vh;
+}
+.ans i{
+    color: white;
+    font-size: 5vh;
+    margin-right: 4vh;
+    opacity: 90%;
+    font-weight: 100;
+}
+.ans:hover{
+    background-color:rgb(77, 76, 76);
+}
+.last{
+    color: white;
+    padding-top:12vh ;
+    width: 100%;
+    height:140%;
+    background-color: black;
+}
+.last h1{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+.lastfill input{
+    background-color: transparent;
+    color: white;
+ font-size: 3vh;
+ border: 0.01px solid rgba(255, 255, 255, 0.705);
+ padding: 2.5vh;
+ padding-right: 60vh;
+}
+.lastfill button{
+    color: white;
+margin-left: 1.5vh;
+ background-color: rgb(230, 0, 0);
+ padding:1.6vh 5vh 1.6vh 3vh;
+ font-size: 4vh;
+ font-weight: 500;
+}
+.lastfill{
+    text-align: center;
+    margin-top: 3vh;
+}
+.last h4{
+   margin-left: 10%;
+    margin-top: 10vh;
+    opacity: 70%;
+}
+.last span{
+    text-decoration: underline;
+}
+.fordiv{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    width: 80%;
+    margin-left:10% ;
+    /* background-color: white; */
+    margin-top: 4vh;
+}
+.diff{
+    margin-top: 2vh;
+    width: 20%;
+    height: 70%;
+    /* background-color: #2b0e21; */
+}
+.diff h3{
+    font-size: 2.5vh;
+    opacity: 70%;
+    text-decoration: underline;
+    margin-bottom:1.5vh ;
+}
+.learn{
+    display: flex;
+    align-items: center;
+}
+.learn h5{
+    opacity: 70%;
+    margin-left: 10%;
+    margin-top: 5vh;
+    font-size:2.5vh ;
+}
+.learn h6{
+    margin-left:0.5%;
+   text-decoration: underline ;
+    margin-top: 5vh;
+    font-size:2.5vh ;
+}
+
+
