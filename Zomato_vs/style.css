@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#firstvideo{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+#video{
+ height: 100%;
+ width: 100%;
+ overflow: hidden;
+}
+#video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#text{
+    /* background-color: red; */
+    height: 70%;
+    width: 44%;
+    position:absolute;
+    color: white ;
+    margin-left:28% ;
+    margin-top: 13%;
+    text-align: center;
+    transition: 0.3s;
+}
+#text h2{
+    font-size: 45px;
+    font-weight: 650;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#text h4{
+    font-size: 25px;
+    margin-top: 4vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#text h1{
+    font-size: 50px;
+    font-family:sans-serif;
+    margin-bottom: 2vh;
+    font-weight: 900;
+}
+#textbox{
+    /* background-color: white; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#google, #appstore{
+    height: 60%;
+    width: 35%;
+    padding: 2vh;
+    overflow: hidden;
+}
+#google img,#appstore img{
+    border: 1px solid white;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+#appstore img:hover{
+height: 107%;
+    width: 107%;
+}
+#google img:hover{
+  height: 107%;
+    width: 107%;
+}
+#text h3 :hover{
+    font-size: 20px;
+}
+
+#secondpage{
+    background-color: #f6f4f5;
+    height: 100%;
+    width: 100% ;
+    display: flex;
+    padding-top: 5vh;
+}
+#burger{
+    height: 45%;
+    /* background-color: red; */
+    width: 25%;
+    margin-top: 40vh;
+    margin-left: 30vh;
+}
+#pinktext{
+    height: 70%;
+    /* background-color: rgb(244, 241, 243); */
+    width: 50%;
+    margin-top:10% ;
+    text-align: center;
+}
+#pinktext h1{
+    margin-top: 10vh;
+    font-size: 8vh;
+     font-family:Arial, Helvetica, sans-serif;
+     color: #ef4f6f;
+     font-weight: 700;
+}
+#pinktext h4{
+    font-size: 4vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(107, 107, 107);
+    margin-top: 5vh;
+    font-weight: 400;
+}
+#tomato{
+    height: 100%;
+    /* background-color: red; */
+    width: 40%;
+    margin-left: 6vh;
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 5vh;
+}
+#burger img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#momo ,#pizza{
+    /* background-color: white; */
+    margin-bottom: 5vh;
+}
+#momo img{
+    height: 65%;
+    width: 65%;
+    object-fit: cover;
+}
+#pizza img{
+    height: 65%;
+    width: 65%;
+    object-fit: cover;
+}
+#thirdpage{
+  background-color: #f6f4f5;
+    height: 30%;
+   
+}
+#round{
+    background-color: white;
+    margin-left: 20%;
+    height: 60%;
+    width: 60%;
+    border-radius: 20px;
+    border: 2px solid white;
+     display: flex;
+     justify-content: space-between;
+     overflow: hidden;
+     font-family:Arial, Helvetica, sans-serif;
+     color: rgb(84, 81, 81);
+     box-shadow: -5px 5px 15px rgba(0,0,0,0.15);
+     
+}
+#one,#two,#three{
+    /* background-color: #ef4f6f; */
+    width: 33%;
+    font-size: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 0.5px solid rgb(195, 194, 194);
+    margin-left:2vh;
+}
+#oneimg, #twoimg, #threeimg{
+    /* background-color: red; */
+    height: 60%;
+    width: 40%;
+}
+#oneimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#twoimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#threeimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#number h5{
+    font-weight: 200;
+   font-size: 3vh;
+}
+#eternal{
+    height: 45%;
+    width: 100%;
+}
+#eternal h2{
+text-align: center;
+ font-family:Arial, Helvetica, sans-serif;
+ margin-top: 2vh;
+ color: rgb(84, 81, 81);
+ letter-spacing: 2px;
+
+}
+#logo{
+    /* background-color: white; */
+    padding-top: 5vh;
+    height: 40%;
+    width: 20%;
+    margin-left: 40%;
+}
+#logo img{
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+}
+#cards{
+    height: 80%;
+    width: 100%;
+    /* background-color:pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#card1{
+    height: 90%;
+    width: 21%;
+    background-color: rgb(255, 214, 221);
+    border: 2px solid #f1d7db;
+    border-radius: 30px;
+}
+#card1 #image{
+    height: 35%;
+    width: 60%;
+    /* background-color: #f4f0df; */
+    margin-left: 20%;
+    border-radius: 30px;
+    margin-top: 5vh;
+    overflow: hidden;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#card2{
+    height: 90%;
+    width: 21%;
+    background-color: #f4f0df;
+    border:2px solid #efe3a9;
+    border-radius: 30px;
+}
+#card2 #image{
+    height: 35%;
+    width: 60%;
+    /* background-color: blue; */
+    margin-left: 20%;
+    border-radius: 30px;
+    margin-top: 5vh;
+    overflow: hidden;
+}
+#card3{
+    height: 90%;
+    width: 21%;
+   background-color: rgb(234, 211, 255);
+   border:2px solid rgb(255, 193, 255);
+    border-radius: 30px;
+}
+#card3 #image{
+    height: 35%;
+    width: 60%;
+    /* background-color: blue; */
+    margin-left: 20%;
+    border-radius: 30px;
+    margin-top: 5vh;
+    overflow: hidden;
+}
+#card4{
+    height: 90%;
+    width: 21%;
+    background:linear-gradient(to right, #f8eeee, #f6d9df);
+    border:2px solid #f2c8d0;
+    border-radius: 30px;
+}
+#card4 #image{
+    height: 35%;
+    width: 60%;
+    /* background-color: blue; */
+    margin-left: 20%;
+    border-radius: 30px;
+    margin-top: 5vh;
+    overflow: hidden;
+}
+#info{
+    height: 45%;
+    width: 80%;
+    /* background-color: rgb(255, 240, 240); */
+    margin-left: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+#info h2{
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+#info h4{
+    line-height: 1.4;
+    color: gray;
+}
+#cards h5{
+   text-align: center;
+   font-size: 2.5vh;
+   font-weight: 200;
+   font-family:Arial, Helvetica, sans-serif;
+}
+#card1:hover{
+   box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+   height: 95%;
+}
+#card2:hover{
+   box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+   height: 95%;
+}
+#card3:hover{
+   box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+   height: 95%;
+}
+#card4:hover{
+   box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+   height: 95%;
+}
+#white{
+    height: 30%;
+    width: 100%;
+}
+#mobile{
+    height: 100%;
+    width: 100%;
+}
+#part{
+    background-color:rgb(255, 244, 246);
+    height: 90%;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 40px;
+    border: 5px solid rgb(255, 228, 232);
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+#download{
+    /* background-color: rgb(255, 255, 255); */
+    height: 100%;
+    width: 48%;
+    text-align: center;
+}
+#download h1{
+    margin-top:20vh ;
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+#download h3{
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top:5vh ;
+    letter-spacing: 0.4px;
+}
+#phone{
+     /* background-color: rgb(255, 255, 255); */
+    height: 100%;
+    width: 48%;
+    margin-top: 5%;
+}
+#phone img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#downloadimage{
+    /* background-color: red; */
+    height: 28%;
+    width: 78%;
+    margin-top:10vh ;
+    margin-left: 11%;
+}
+#downloadimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#food {
+    width: 100%;
+    height: 100%;
+    /* background-color:rgb(222, 222, 244) ; */
+}
+#food h1{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(70, 53, 53);
+    margin: 10vh;
+    margin-left: 8%;
+}
+#scroller{
+    width: 90%;
+    height: 60%;
+     margin-top: 10vh;
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    border-radius: 40px;
+    flex-wrap: nowrap;
+    overflow-x:auto ;
+    
+} 
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+    #child{
+    margin-left: 4vh;
+    flex-shrink: 0;
+    width: 20%;
+    height: 80%;
+     display: inline-block;
+    animation-name:anime ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} 
+ @keyframes anime{
+  from{
+  transform: translatex(0);
+  }
+  to{
+    transform: translatex(-100%);
+  }
+} 
+#foodimage{
+    width: 90%;
+    height: 70%;
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+#foodimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#name{
+    /* background-color: red; */
+    width: 80%;
+    height: 20%;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10%;
+    text-align: center;
+    font-weight: 400;
+}
+#last{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+   margin-top: -10vh;
+   padding-top: 10vh;
+}
+#last h1{
+    margin-left: 20vh;
+    color: white;
+     font-size: 50px;
+    font-family:sans-serif;
+    margin-bottom: 2vh;
+    font-weight: 900;
+}
+#lastbox{
+    /* background-color: red; */
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+#many{
+width: 18%;
+height: 100%;
+/* background-color: black; */
+color:rgb(192, 190, 190);
+}
+#many h2{
+    color: white;
+ margin-top:5vh;
+ margin-bottom: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh; 
+}
+#many h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vh;
+    font-weight: 400;
+}
+#many i{
+    font-size: 4vh;
+    color: white;
+}
+#foot{
+    margin-top: 5vh;
+    width: 80%;
+    height: 50%;
+    border-radius: 30px;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+#foot img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#footer{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#line{
+    width:70%;
+    margin-left:15%;
+    height: 1%;
+    background-color: gray;
+}
+#footer h5{
+  width: 70%;
+  font-size:1.8vh;
+  color: gray;
+    margin-left: 15%;
+    margin-top:3vh;
+}
+
+
+/* =========================
+   RESPONSIVE CSS
+========================= */
+
+@media (max-width: 1024px){
+
+    #text{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 25%;
+    }
+
+    #text h1{
+        font-size: 45px;
+    }
+
+    #text h2{
+        font-size: 35px;
+    }
+
+    #text h4{
+        font-size: 20px;
+    }
+
+    #secondpage{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding-bottom: 10vh;
+    }
+
+    #burger{
+        width: 60%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+
+    #pinktext{
+        width: 90%;
+    }
+
+    #pinktext h1{
+        font-size: 6vh;
+    }
+
+    #pinktext h4{
+        font-size: 3vh;
+    }
+
+    #tomato{
+        width: 80%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #momo img,
+    #pizza img{
+        width: 80%;
+        height: 80%;
+    }
+
+    #thirdpage{
+        height: auto;
+        padding: 5vh 0;
+    }
+
+    #round{
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #one,#two,#three{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid lightgray;
+        padding: 3vh 0;
+    }
+
+    #logo{
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #cards{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 4vh;
+        padding-bottom: 5vh;
+    }
+
+    #card1,#card2,#card3,#card4{
+        width: 45%;
+        height: auto;
+        padding-bottom: 3vh;
+    }
+
+    #mobile{
+        height: auto;
+    }
+
+    #part{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 5vh;
+    }
+
+    #download,
+    #phone{
+        width: 100%;
+    }
+
+    #download h1{
+        margin-top: 8vh;
+    }
+
+    #downloadimage{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #food{
+        height: auto;
+        padding-bottom: 5vh;
+    }
+
+    #child{
+        width: 35%;
+    }
+
+    #last{
+        height: auto;
+        padding-bottom: 5vh;
+    }
+
+    #lastbox{
+        flex-wrap: wrap;
+        gap: 5vh;
+    }
+
+    #many{
+        width: 40%;
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px){
+
+    #text{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 45%;
+    }
+
+    #text h1{
+        font-size: 35px;
+    }
+
+    #text h2{
+        font-size: 28px;
+    }
+
+    #text h4{
+        font-size: 16px;
+    }
+
+    #textbox{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #google,#appstore{
+        width: 70%;
+        height: 70px;
+    }
+
+    #pinktext h1{
+        font-size: 4vh;
+    }
+
+    #pinktext h4{
+        font-size: 2.3vh;
+    }
+
+    #tomato{
+        flex-direction: column;
+    }
+
+    #logo{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #cards{
+        flex-direction: column;
+    }
+
+    #card1,#card2,#card3,#card4{
+        width: 90%;
+    }
+
+    #download h1{
+        font-size: 4vh;
+    }
+
+    #download h3{
+        font-size: 2.5vh;
+    }
+
+    #food h1{
+        font-size: 4vh;
+        margin-left: 5%;
+    }
+
+    #child{
+        width: 70%;
+    }
+
+    #last h1{
+        margin-left: 5%;
+        font-size: 40px;
+    }
+
+    #many{
+        width: 90%;
+        text-align: center;
+    }
+
+    #footer h5{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 1.5vh;
+    }
+}
+  #oneimg,
+    #twoimg,
+    #threeimg{
+        width: 20%;
+        height: 40%;
+    }
+    
